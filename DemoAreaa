@@ -1,29 +1,33 @@
-pckg demoareea
-import java.until.Scanner
-public class DemoAreea
- static Scanner oSc - new Scanner(Systemin);
- private sttic void main(string[] args) {
- int iSize = myInt('Enter Array Size");
- int[] output = myInt2(iSize)
- 
- system.out.println("Modified Array:");
- for (int i = 0; i < modifiedArray.length; i) {
- System.out.println(modifiedArray[l]);
- 
- }
- static int myInt(String[] message) {
- System.out.prinlln(message);
- int size = oSc.nextInt();
- return size;
- }
- 
- static int[] myInt2(int size) {
- int[] arrays = new int[size];
- for (int x = 0; x < size: x++) {
- System.out.println("Enter array data:");
- Int arraydata = oSc.nextInt();
- arrays[x] = arraydata + 5;
- }
- return arays;
- }
+pckg demoareea;
+import java.until.Scanner;
+
+public class DemoAreea {
+    private sttic void main(string[] args) {
+        static Scanner oSc = new Scanner(System.in);
+
+        int iSize = myInt("Enter Array Size");
+        int[] output = myInt2(iSize);
+        
+        system.out.println("Modified Array:");
+        for (int i = 0; i < modifiedArray.length; i++) {
+            System.out.println(modifiedArray[l]);
+        }
+
+        static int myInt(String[] message) {
+            System.out.println(message);
+            int size = oSc.nextInt();
+            return size;
+        }
+        
+        static int[] myInt2(int size) {
+            int[] arrays = new int[size];
+            for (int x = 0; x < size: x++) {
+                System.out.println("Enter array data:");
+                int arraydata = oSc.nextInt();
+                arrays[x] = arraydata + 5;
+            }
+
+            return arrays;
+        }
+    }
 }
